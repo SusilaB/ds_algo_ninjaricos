@@ -1,0 +1,1437 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 5, 2023 11:43:18 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@startPage</a><a class="dropdown-item" href="#">@logIn</a><a class="dropdown-item" href="#">@dataStructurePage</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Launch Start page and Test Home Page</p>
+            <p class="text-sm">
+              <span>11:43:22 AM</span> / <span>00:00:12:130</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Launch Start page and Test Home Page</h5>
+<span class='badge badge-success'>02.05.2023 11:43:22 AM</span>
+<span class='badge badge-danger'>02.05.2023 11:43:34 AM</span>
+<span class='badge badge-default'>00:00:12:130</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>launch the home page of dsalgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.HomePage_SD.user_opens_the_dsalgo_portal_link()">
+                <span>Given user opens the dsalgo portal link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.HomePage_SD.user_clicks_on_button(java.lang.String)">
+                <span>When user clicks on "Get Started" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.HomePage_SD.user_redirected_to_home_page()">
+                <span>Then user redirected to home page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any dropdown "<value>" without sign in</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any dropdown "Arrays" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks on data structure dropdown before signin</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user select any dropdown menu "Arrays"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any dropdown "Linked List" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks on data structure dropdown before signin</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user select any dropdown menu "Linked List"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="28"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any dropdown "Stack" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks on data structure dropdown before signin</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user select any dropdown menu "Stack"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="37"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any dropdown "Queue" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks on data structure dropdown before signin</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user select any dropdown menu "Queue"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="46"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any dropdown "Tree" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks on data structure dropdown before signin</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user select any dropdown menu "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="55"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any dropdown "Graph" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks on data structure dropdown before signin</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user select any dropdown menu "Graph"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="64"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any getStarted link "<value>" without sign in</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="65"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any getStarted link "Data Structures-Introduction" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user click any of the Get started link before signin "Data Structures-Introduction" in home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="72"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any getStarted link "Arrays" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user click any of the Get started link before signin "Arrays" in home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="79"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any getStarted link "Linked List" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user click any of the Get started link before signin "Linked List" in home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="86"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any getStarted link "Stack" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user click any of the Get started link before signin "Stack" in home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="93"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any getStarted link "Queue" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user click any of the Get started link before signin "Queue" in home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="100"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any getStarted link "Tree" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user click any of the Get started link before signin "Tree" in home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="107"><span class="badge log pass-bg mr-2">Pass</span>User is on Home Page and clicks on any getStarted link "Graph" without sign in</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on Home Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user click any of the Get started link before signin "Graph" in home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="114"><span class="badge log pass-bg mr-2">Pass</span>User is on Home page and Clicks on Signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.HomePage_SD.user_is_on_home_page()">
+                <span>Given user is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.HomePage_SD.user_clicks_on_sign_in_link()">
+                <span>When user clicks on SignIn link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.HomePage_SD.user_redirected_to_login_page()">
+                <span>Then user redirected to login page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="121"><span class="badge log pass-bg mr-2">Pass</span>User is on Home page and Clicks on Register</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.HomePage_SD.user_is_on_home_page()">
+                <span>Given user is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.HomePage_SD.user_clicks_on_register_link()">
+                <span>When user clicks on Register link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.HomePage_SD.user_redirected_to_register_page()">
+                <span>Then user redirected to register page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="128"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Action</p>
+            <p class="text-sm">
+              <span>11:43:34 AM</span> / <span>00:00:05:190</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Action</h5>
+<span class='badge badge-success'>02.05.2023 11:43:34 AM</span>
+<span class='badge badge-danger'>02.05.2023 11:43:39 AM</span>
+<span class='badge badge-default'>00:00:05:190</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=128</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="129"><span class="badge log pass-bg mr-2">Pass</span>Redirect to Register page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_is_on_sign_in_page()">
+                <span>Given User is on SignIn page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_clicks_on_register_link()">
+                <span>When User Clicks on Register link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_should_be_redirected_to_register_page()">
+                <span>Then User should be redirected to Register page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="136"><span class="badge log pass-bg mr-2">Pass</span>To verify SignIn with Empty fields</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_is_on_sign_in_page()">
+                <span>Given User is on SignIn page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_clicks_on_login_button_with_all_empty_field()">
+                <span>When User clicks on login button with all empty field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_verify_the_message_at_username_as(java.lang.String)">
+                <span>Then User verify the message at username as "Please fill out this field."</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="143"><span class="badge log pass-bg mr-2">Pass</span>To verify SignIn with username only</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_is_on_sign_in_page()">
+                <span>Given User is on SignIn page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_clicks_on_login_button_with_username_as_only(java.lang.String)">
+                <span>When User clicks on login button with username as "numpy" only</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_verify_the_message_at_password_as(java.lang.String)">
+                <span>Then User verify the message at password as "Please fill out this field."</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="150"><span class="badge log pass-bg mr-2">Pass</span>To verify SignIn with password only</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_is_on_sign_in_page()">
+                <span>Given User is on SignIn page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_clicks_on_login_button_with_password_as_only(java.lang.String)">
+                <span>When User clicks on login button with password as "numpy" only</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_verify_the_message_at_user_as(java.lang.String)">
+                <span>Then User verify the message at user as "Please fill out this field."</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="157"><span class="badge log pass-bg mr-2">Pass</span>To verify SignIn with invalid "<username>" and "<password>"</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="158"><span class="badge log pass-bg mr-2">Pass</span>To verify SignIn with invalid "abcdefgh" and "zxyu1234"</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on SignIn page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters username as "abcdefgh"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters password as "zxyu1234"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User verify the message as "Invalid Username and Password"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="169"><span class="badge log pass-bg mr-2">Pass</span>User  Login with  valid "<username>" and "<password>"</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="170"><span class="badge log pass-bg mr-2">Pass</span>User  Login with  valid "<username>" and "<password>"</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on SignIn page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters sheetname "SignIn" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should navigate to the home page with a message " You are logged in  "</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="179"><span class="badge log pass-bg mr-2">Pass</span>Successful LogOut</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.user_clicks_on_signout()">
+                <span>When User clicks on signout</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Signin_SD.message_displayed_logged_out_successfully()">
+                <span>Then Message displayed LoggedOut Successfully</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="184"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Data Structure page validation dsalgo</p>
+            <p class="text-sm">
+              <span>11:43:39 AM</span> / <span>00:00:04:414</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Data Structure page validation dsalgo</h5>
+<span class='badge badge-success'>02.05.2023 11:43:39 AM</span>
+<span class='badge badge-danger'>02.05.2023 11:43:44 AM</span>
+<span class='badge badge-default'>00:00:04:414</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=184</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="185"><span class="badge log pass-bg mr-2">Pass</span>User is clicks on datastructure page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.Common_SD.the_user_is_on_signin_page_of_ds_algo_portal()">
+                <span>Given The user is on Signin page of DS Algo portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Common_SD.the_user_enter_valid_and(java.lang.String,java.lang.String)">
+                <span>When The user enter valid "Ninjauser1" and "Secret123#"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Common_SD.the_user_click_on_login_button()">
+                <span>And The user click on login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Common_SD.the_user_redirected_to_homepage()">
+                <span>Then The user redirected to homepage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Common_SD.the_user_is_on_home_page_after_logged_in()">
+                <span>Given The user is on Home page after logged in</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.DataStructure_SD.user_clicks_on_datastructure_getstarted()">
+                <span>When user clicks on datastructure getstarted</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.DataStructure_SD.user_redirected_to_page_with_title(java.lang.String)">
+                <span>Then user redirected to page with title "Data Structures-Introduction"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.DataStructure_SD.user_click_on_time_complexity()">
+                <span>When user click on Time Complexity</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.DataStructure_SD.it_should_navigate_to_corresponding_page_with_title(java.lang.String)">
+                <span>Then It should navigate to corresponding page with title "Time Complexity"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.DataStructure_SD.user_click_on_try_here()">
+                <span>When user click on Try here</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.DataStructure_SD.it_should_navigate_to_corresponding_page_with_title(java.lang.String)">
+                <span>Then It should navigate to corresponding page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.DataStructure_SD.user_enter_the_python_code(io.cucumber.datatable.DataTable)">
+                <span>When user enter the Python code</span>
+      <div><table class='markup-table table '><tr><td>print"DataStructure Introduction"</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.DataStructure_SD.click_on_run_button()">
+                <span>And click on run button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.Common_SD.the_user_redirected_to_homepage()">
+                <span>Then The user redirected to homepage</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>16</span>
+</span>
+<p class="name">@startPage</p>
+<p class="duration text-sm">16 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@startPage</h4>
+<span status="pass" class='badge log pass-bg'>16 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>launch the home page of dsalgo portal</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.launch the home page of dsalgo portal</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>User is on Home Page and clicks on any dropdown "Arrays" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any dropdown "Arrays" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>User is on Home Page and clicks on any dropdown "Linked List" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any dropdown "Linked List" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>User is on Home Page and clicks on any dropdown "Stack" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any dropdown "Stack" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='37'>User is on Home Page and clicks on any dropdown "Queue" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any dropdown "Queue" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='46'>User is on Home Page and clicks on any dropdown "Tree" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any dropdown "Tree" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='55'>User is on Home Page and clicks on any dropdown "Graph" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any dropdown "Graph" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='65'>User is on Home Page and clicks on any getStarted link "Data Structures-Introduction" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any getStarted link "Data Structures-Introduction" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='72'>User is on Home Page and clicks on any getStarted link "Arrays" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any getStarted link "Arrays" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='79'>User is on Home Page and clicks on any getStarted link "Linked List" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any getStarted link "Linked List" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:31 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='86'>User is on Home Page and clicks on any getStarted link "Stack" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any getStarted link "Stack" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:31 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='93'>User is on Home Page and clicks on any getStarted link "Queue" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any getStarted link "Queue" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='100'>User is on Home Page and clicks on any getStarted link "Tree" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any getStarted link "Tree" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='107'>User is on Home Page and clicks on any getStarted link "Graph" without sign in</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home Page and clicks on any getStarted link "Graph" without sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='114'>User is on Home page and Clicks on Signin</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home page and Clicks on Signin</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='121'>User is on Home page and Clicks on Register</a>
+<div class="">
+<span class="badge badge-default">Launch Start page and Test Home Page.User is on Home page and Clicks on Register</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+</span>
+<p class="name">@logIn</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@logIn</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='128' id='129'>Redirect to Register page</a>
+<div class="">
+<span class="badge badge-default">Login Action.Redirect to Register page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='128' id='136'>To verify SignIn with Empty fields</a>
+<div class="">
+<span class="badge badge-default">Login Action.To verify SignIn with Empty fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='128' id='143'>To verify SignIn with username only</a>
+<div class="">
+<span class="badge badge-default">Login Action.To verify SignIn with username only</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='128' id='150'>To verify SignIn with password only</a>
+<div class="">
+<span class="badge badge-default">Login Action.To verify SignIn with password only</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='128' id='158'>To verify SignIn with invalid "abcdefgh" and "zxyu1234"</a>
+<div class="">
+<span class="badge badge-default">Login Action.To verify SignIn with invalid "abcdefgh" and "zxyu1234"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='128' id='170'>User Login with valid "<username>" and "<password>"</a>
+<div class="">
+<span class="badge badge-default">Login Action.User Login with valid "<username>" and "<password>"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='128' id='179'>Successful LogOut</a>
+<div class="">
+<span class="badge badge-default">Login Action.Successful LogOut</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@dataStructurePage</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@dataStructurePage</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:43:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='184' id='185'>User is clicks on datastructure page</a>
+<div class="">
+<span class="badge badge-default">Data Structure page validation dsalgo.User is clicks on datastructure page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 5, 2023 11:43:18 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 5, 2023 11:43:44 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>3</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>24</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>91</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Launch Start page and Test Home Page":12.13,"Login Action":5.19,"Data Structure page validation dsalgo":4.414
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@startPage</td>
+<td>16</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@logIn</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@dataStructurePage</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Project</td>
+<td>DS_Algo</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Google Chrome</td>
+</tr>
+<tr>
+<td>user</td>
+<td>DS_Algo_NinjaRicos</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 24,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 91,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

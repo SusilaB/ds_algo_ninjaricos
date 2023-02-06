@@ -1,0 +1,291 @@
+[INFO ]2023-02-05 11:31:22.353 [main]LoggerLoad-Loading Config file
+[INFO ]2023-02-05 11:31:22.356 [main]LoggerLoad-Get Browser Type from Properties
+[INFO ]2023-02-05 11:31:24.292 [main]LoggerLoad-IntializingChromedriver
+[INFO ]2023-02-05 11:31:24.698 [main]LoggerLoad------DSAlgo Portal-----
+[INFO ]2023-02-05 11:31:25.246 [main]LoggerLoad------Click on get Started button----
+[INFO ]2023-02-05 11:31:25.659 [main]LoggerLoad-----User is onNumpyNinjaPage----
+[INFO ]2023-02-05 11:31:25.815 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:25.980 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:31:26.063 [main]LoggerLoad-User click on Arrays
+[INFO ]2023-02-05 11:31:26.477 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:26.502 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:26.643 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:31:26.698 [main]LoggerLoad-User click on Linked List
+[INFO ]2023-02-05 11:31:27.083 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:27.107 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:27.250 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:31:27.305 [main]LoggerLoad-User click on Stack
+[INFO ]2023-02-05 11:31:27.708 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:27.724 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:27.876 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:31:27.935 [main]LoggerLoad-User click on Queue
+[INFO ]2023-02-05 11:31:28.362 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:28.375 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:28.516 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:31:28.566 [main]LoggerLoad-User click on Tree
+[INFO ]2023-02-05 11:31:29.145 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:29.158 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:29.281 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:31:29.338 [main]LoggerLoad-User click on Graph
+[INFO ]2023-02-05 11:31:29.759 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:29.774 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:29.972 [main]LoggerLoad-click Get Startedlink on  DataStructures 
+[INFO ]2023-02-05 11:31:30.325 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:31:30.354 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:30.367 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:30.544 [main]LoggerLoad-click Get Startedlink on Array 
+[INFO ]2023-02-05 11:31:30.817 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:31:30.847 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:30.863 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:31.047 [main]LoggerLoad-click Get Startedlink on LinkedList
+[INFO ]2023-02-05 11:31:31.300 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:31:31.334 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:31.353 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:31.527 [main]LoggerLoad-click Get Startedlink on stack
+[INFO ]2023-02-05 11:31:31.787 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:31:31.821 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:31.834 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:32.004 [main]LoggerLoad-click Get Startedlink on queue 
+[INFO ]2023-02-05 11:31:32.264 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:31:32.299 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:32.315 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:32.487 [main]LoggerLoad-click Get Startedlink on Tree 
+[INFO ]2023-02-05 11:31:32.753 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:31:32.782 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:32.796 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:32.960 [main]LoggerLoad-click Get Startedlink on Graph 
+[INFO ]2023-02-05 11:31:33.231 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:31:33.267 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:31:33.281 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:33.412 [main]LoggerLoad----User Clicks on Sign In link----
+[INFO ]2023-02-05 11:31:33.629 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:31:33.795 [main]LoggerLoad-----User Clicks on Register link---
+[INFO ]2023-02-05 11:31:34.013 [main]LoggerLoad-User redirected to Registraion page 
+[INFO ]2023-02-05 11:31:34.023 [main]LoggerLoad-Title of current page is : Registration
+[INFO ]2023-02-05 11:31:34.044 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:31:34.193 [main]LoggerLoad-----User Clicks on Register Link-----
+[INFO ]2023-02-05 11:31:34.428 [main]LoggerLoad-----User redirected to Page----Registration
+[INFO ]2023-02-05 11:31:34.443 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:31:34.605 [main]LoggerLoad-User is Clicking login button with empty fields
+[INFO ]2023-02-05 11:31:34.711 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:31:34.844 [main]LoggerLoad---User Enters Only the User name--
+[INFO ]2023-02-05 11:31:34.914 [main]LoggerLoad-----User can seePlease fill out this field.-----
+[INFO ]2023-02-05 11:31:34.928 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:31:35.076 [main]LoggerLoad-User Enters Only Password
+[INFO ]2023-02-05 11:31:35.157 [main]LoggerLoad-User can seePlease fill out this field.
+[INFO ]2023-02-05 11:31:35.168 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:31:35.425 [main]LoggerLoad------User Clicks on Login button-----
+[INFO ]2023-02-05 11:31:35.770 [main]LoggerLoad-The actual Alert is:Invalid Username and Password
+[INFO ]2023-02-05 11:31:35.781 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:31:36.652 [main]LoggerLoad-User Enter username as " Ninjauser1 "and Password as " 
+Secret123#" 
+[INFO ]2023-02-05 11:31:37.744 [main]LoggerLoad-User Is on Login Page
+[INFO ]2023-02-05 11:31:37.925 [main]LoggerLoad-User Enters username and password
+[INFO ]2023-02-05 11:31:38.967 [main]LoggerLoad-User redirected to HomePage
+[INFO ]2023-02-05 11:31:38.986 [main]LoggerLoad-Title of current page is NumpyNinja
+[INFO ]2023-02-05 11:31:38.990 [main]LoggerLoad-User Clicks on get started link
+[INFO ]2023-02-05 11:31:39.218 [main]LoggerLoad-User redirected toData Structures-IntroductionPage
+[INFO ]2023-02-05 11:31:39.225 [main]LoggerLoad-Title of current page is : Data Structures-Introduction
+[INFO ]2023-02-05 11:31:39.529 [main]LoggerLoad-User Clicks on Time complexity link
+[INFO ]2023-02-05 11:31:39.530 [main]LoggerLoad-User redirected toTime ComplexityPage
+[INFO ]2023-02-05 11:31:39.537 [main]LoggerLoad-Title of current page is : Time Complexity
+[INFO ]2023-02-05 11:31:42.079 [main]LoggerLoad-User Clicks on try it Editor
+[INFO ]2023-02-05 11:31:42.103 [main]LoggerLoad-User redirected toAssessmentPage
+[INFO ]2023-02-05 11:31:42.178 [main]LoggerLoad-Title of current page is : Assessment
+[INFO ]2023-02-05 11:31:45.788 [main]LoggerLoad-User Clicked Run button
+[INFO ]2023-02-05 11:31:46.673 [main]LoggerLoad-User redirected to HomePage
+[INFO ]2023-02-05 11:31:46.785 [main]LoggerLoad-Closing Driver
+[INFO ]2023-02-05 11:43:19.922 [main]LoggerLoad-Loading Config file
+[INFO ]2023-02-05 11:43:19.927 [main]LoggerLoad-Get Browser Type from Properties
+[INFO ]2023-02-05 11:43:22.107 [main]LoggerLoad-IntializingChromedriver
+[INFO ]2023-02-05 11:43:22.455 [main]LoggerLoad------DSAlgo Portal-----
+[INFO ]2023-02-05 11:43:23.050 [main]LoggerLoad------Click on get Started button----
+[INFO ]2023-02-05 11:43:23.998 [main]LoggerLoad-----User is onNumpyNinjaPage----
+[INFO ]2023-02-05 11:43:24.131 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:24.307 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:43:24.358 [main]LoggerLoad-User click on Arrays
+[INFO ]2023-02-05 11:43:25.096 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:25.117 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:25.289 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:43:25.334 [main]LoggerLoad-User click on Linked List
+[INFO ]2023-02-05 11:43:26.078 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:26.107 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:26.276 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:43:26.341 [main]LoggerLoad-User click on Stack
+[INFO ]2023-02-05 11:43:27.071 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:27.089 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:27.230 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:43:27.287 [main]LoggerLoad-User click on Queue
+[INFO ]2023-02-05 11:43:27.704 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:27.725 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:27.919 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:43:27.977 [main]LoggerLoad-User click on Tree
+[INFO ]2023-02-05 11:43:28.411 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:28.432 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:28.586 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 11:43:28.660 [main]LoggerLoad-User click on Graph
+[INFO ]2023-02-05 11:43:29.183 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:29.214 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:29.442 [main]LoggerLoad-click Get Startedlink on  DataStructures 
+[INFO ]2023-02-05 11:43:29.888 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:43:29.936 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:29.961 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:30.187 [main]LoggerLoad-click Get Startedlink on Array 
+[INFO ]2023-02-05 11:43:30.513 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:43:30.551 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:30.572 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:30.773 [main]LoggerLoad-click Get Startedlink on LinkedList
+[INFO ]2023-02-05 11:43:31.082 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:43:31.127 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:31.145 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:31.371 [main]LoggerLoad-click Get Startedlink on stack
+[INFO ]2023-02-05 11:43:31.904 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:43:31.935 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:31.947 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:32.138 [main]LoggerLoad-click Get Startedlink on queue 
+[INFO ]2023-02-05 11:43:32.451 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:43:32.481 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:32.499 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:32.671 [main]LoggerLoad-click Get Startedlink on Tree 
+[INFO ]2023-02-05 11:43:32.968 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:43:32.998 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:33.015 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:33.189 [main]LoggerLoad-click Get Startedlink on Graph 
+[INFO ]2023-02-05 11:43:33.487 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 11:43:33.517 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 11:43:33.531 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:33.683 [main]LoggerLoad----User Clicks on Sign In link----
+[INFO ]2023-02-05 11:43:33.969 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 11:43:34.224 [main]LoggerLoad-----User Clicks on Register link---
+[INFO ]2023-02-05 11:43:34.542 [main]LoggerLoad-User redirected to Registraion page 
+[INFO ]2023-02-05 11:43:34.554 [main]LoggerLoad-Title of current page is : Registration
+[INFO ]2023-02-05 11:43:34.594 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:43:34.789 [main]LoggerLoad-----User Clicks on Register Link-----
+[INFO ]2023-02-05 11:43:35.074 [main]LoggerLoad-----User redirected to Page----Registration
+[INFO ]2023-02-05 11:43:35.095 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:43:35.294 [main]LoggerLoad-User is Clicking login button with empty fields
+[INFO ]2023-02-05 11:43:35.455 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:43:35.627 [main]LoggerLoad---User Enters Only the User name--
+[INFO ]2023-02-05 11:43:35.813 [main]LoggerLoad-----User can seePlease fill out this field.-----
+[INFO ]2023-02-05 11:43:35.834 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:43:35.999 [main]LoggerLoad-User Enters Only Password
+[INFO ]2023-02-05 11:43:36.114 [main]LoggerLoad-User can seePlease fill out this field.
+[INFO ]2023-02-05 11:43:36.132 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:43:36.416 [main]LoggerLoad------User Clicks on Login button-----
+[INFO ]2023-02-05 11:43:36.955 [main]LoggerLoad-The actual Alert is:Invalid Username and Password
+[INFO ]2023-02-05 11:43:36.970 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 11:43:38.478 [main]LoggerLoad-User Enter username as " Ninjauser1 "and Password as " 
+Secret123#" 
+[INFO ]2023-02-05 11:43:39.811 [main]LoggerLoad-User Is on Login Page
+[INFO ]2023-02-05 11:43:39.989 [main]LoggerLoad-User Enters username and password
+[INFO ]2023-02-05 11:43:40.892 [main]LoggerLoad-User redirected to HomePage
+[INFO ]2023-02-05 11:43:40.908 [main]LoggerLoad-Title of current page is NumpyNinja
+[INFO ]2023-02-05 11:43:40.914 [main]LoggerLoad-User Clicks on get started link
+[INFO ]2023-02-05 11:43:41.184 [main]LoggerLoad-User redirected toData Structures-IntroductionPage
+[INFO ]2023-02-05 11:43:41.193 [main]LoggerLoad-Title of current page is : Data Structures-Introduction
+[INFO ]2023-02-05 11:43:41.564 [main]LoggerLoad-User Clicks on Time complexity link
+[INFO ]2023-02-05 11:43:41.566 [main]LoggerLoad-User redirected toTime ComplexityPage
+[INFO ]2023-02-05 11:43:41.579 [main]LoggerLoad-Title of current page is : Time Complexity
+[INFO ]2023-02-05 11:43:42.841 [main]LoggerLoad-User Clicks on try it Editor
+[INFO ]2023-02-05 11:43:42.843 [main]LoggerLoad-User redirected toAssessmentPage
+[INFO ]2023-02-05 11:43:42.852 [main]LoggerLoad-Title of current page is : Assessment
+[INFO ]2023-02-05 11:43:44.070 [main]LoggerLoad-User Clicked Run button
+[INFO ]2023-02-05 11:43:44.222 [main]LoggerLoad-User redirected to HomePage
+[INFO ]2023-02-05 11:43:44.241 [main]LoggerLoad-Closing Driver
+[INFO ]2023-02-05 19:03:09.010 [main]LoggerLoad-Loading Config file
+[INFO ]2023-02-05 19:03:09.016 [main]LoggerLoad-Get Browser Type from Properties
+[INFO ]2023-02-05 19:03:12.398 [main]LoggerLoad-IntializingChromedriver
+[INFO ]2023-02-05 19:03:12.902 [main]LoggerLoad------DSAlgo Portal-----
+[INFO ]2023-02-05 19:03:13.571 [main]LoggerLoad------Click on get Started button----
+[INFO ]2023-02-05 19:03:14.156 [main]LoggerLoad-----User is onNumpyNinjaPage----
+[INFO ]2023-02-05 19:03:14.406 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:14.698 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 19:03:14.874 [main]LoggerLoad-User click on Arrays
+[INFO ]2023-02-05 19:03:15.491 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:15.517 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:15.749 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 19:03:15.882 [main]LoggerLoad-User click on Linked List
+[INFO ]2023-02-05 19:03:16.425 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:16.462 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:16.678 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 19:03:16.769 [main]LoggerLoad-User click on Stack
+[INFO ]2023-02-05 19:03:17.332 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:17.397 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:17.617 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 19:03:17.750 [main]LoggerLoad-User click on Queue
+[INFO ]2023-02-05 19:03:18.302 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:18.347 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:18.543 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 19:03:18.640 [main]LoggerLoad-User click on Tree
+[INFO ]2023-02-05 19:03:19.226 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:19.273 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:19.476 [main]LoggerLoad------User Clicks on Dropdown Before Sign in-----
+[INFO ]2023-02-05 19:03:19.586 [main]LoggerLoad-User click on Graph
+[INFO ]2023-02-05 19:03:20.205 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:20.288 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:20.563 [main]LoggerLoad-click Get Startedlink on  DataStructures 
+[INFO ]2023-02-05 19:03:21.040 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 19:03:21.108 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:21.156 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:21.459 [main]LoggerLoad-click Get Startedlink on Array 
+[INFO ]2023-02-05 19:03:21.875 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 19:03:21.945 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:21.993 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:22.268 [main]LoggerLoad-click Get Startedlink on LinkedList
+[INFO ]2023-02-05 19:03:22.632 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 19:03:22.687 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:22.757 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:23.042 [main]LoggerLoad-click Get Startedlink on stack
+[INFO ]2023-02-05 19:03:23.467 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 19:03:23.538 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:23.579 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:23.892 [main]LoggerLoad-click Get Startedlink on queue 
+[INFO ]2023-02-05 19:03:24.316 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 19:03:24.380 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:24.428 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:24.767 [main]LoggerLoad-click Get Startedlink on Tree 
+[INFO ]2023-02-05 19:03:25.109 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 19:03:25.155 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:25.185 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:25.416 [main]LoggerLoad-click Get Startedlink on Graph 
+[INFO ]2023-02-05 19:03:25.825 [main]LoggerLoad-User Clicks on Get Started link before Sign in
+[INFO ]2023-02-05 19:03:25.889 [main]LoggerLoad-The actual Message:You are not logged in
+[INFO ]2023-02-05 19:03:25.925 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:26.189 [main]LoggerLoad----User Clicks on Sign In link----
+[INFO ]2023-02-05 19:03:26.782 [main]LoggerLoad-----This is the Home Page------
+[INFO ]2023-02-05 19:03:27.026 [main]LoggerLoad-----User Clicks on Register link---
+[INFO ]2023-02-05 19:03:27.391 [main]LoggerLoad-User redirected to Registraion page 
+[INFO ]2023-02-05 19:03:27.407 [main]LoggerLoad-Title of current page is : Registration
+[INFO ]2023-02-05 19:03:27.491 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 19:03:27.724 [main]LoggerLoad-----User Clicks on Register Link-----
+[INFO ]2023-02-05 19:03:28.198 [main]LoggerLoad-----User redirected to Page----Registration
+[INFO ]2023-02-05 19:03:28.267 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 19:03:28.509 [main]LoggerLoad-User is Clicking login button with empty fields
+[INFO ]2023-02-05 19:03:28.779 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 19:03:28.996 [main]LoggerLoad---User Enters Only the User name--
+[INFO ]2023-02-05 19:03:29.152 [main]LoggerLoad-----User can seePlease fill out this field.-----
+[INFO ]2023-02-05 19:03:29.220 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 19:03:29.419 [main]LoggerLoad-User Enters Only Password
+[INFO ]2023-02-05 19:03:29.568 [main]LoggerLoad-User can seePlease fill out this field.
+[INFO ]2023-02-05 19:03:29.594 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 19:03:30.026 [main]LoggerLoad------User Clicks on Login button-----
+[INFO ]2023-02-05 19:03:30.510 [main]LoggerLoad-The actual Alert is:Invalid Username and Password
+[INFO ]2023-02-05 19:03:30.543 [main]LoggerLoad-------User is On Sign in page------
+[INFO ]2023-02-05 19:03:32.814 [main]LoggerLoad-User Enter username as " Ninjauser1 "and Password as " 
+Secret123#" 
+[INFO ]2023-02-05 19:03:34.393 [main]LoggerLoad-User Is on Login Page
+[INFO ]2023-02-05 19:03:34.649 [main]LoggerLoad-User Enters username and password
+[INFO ]2023-02-05 19:03:35.758 [main]LoggerLoad-User redirected to HomePage
+[INFO ]2023-02-05 19:03:35.798 [main]LoggerLoad-Title of current page is NumpyNinja
+[INFO ]2023-02-05 19:03:35.815 [main]LoggerLoad-User Clicks on get started link
+[INFO ]2023-02-05 19:03:36.229 [main]LoggerLoad-User redirected toData Structures-IntroductionPage
+[INFO ]2023-02-05 19:03:36.250 [main]LoggerLoad-Title of current page is : Data Structures-Introduction
+[INFO ]2023-02-05 19:03:36.717 [main]LoggerLoad-User Clicks on Time complexity link
+[INFO ]2023-02-05 19:03:36.719 [main]LoggerLoad-User redirected toTime ComplexityPage
+[INFO ]2023-02-05 19:03:36.750 [main]LoggerLoad-Title of current page is : Time Complexity
+[INFO ]2023-02-05 19:03:38.067 [main]LoggerLoad-User Clicks on try it Editor
+[INFO ]2023-02-05 19:03:38.073 [main]LoggerLoad-User redirected toAssessmentPage
+[INFO ]2023-02-05 19:03:38.087 [main]LoggerLoad-Title of current page is : Assessment
+[INFO ]2023-02-05 19:03:39.461 [main]LoggerLoad-User Clicked Run button
+[INFO ]2023-02-05 19:03:39.677 [main]LoggerLoad-User redirected to HomePage
+[INFO ]2023-02-05 19:03:39.750 [main]LoggerLoad-Closing Driver
