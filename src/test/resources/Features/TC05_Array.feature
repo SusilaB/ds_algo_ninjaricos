@@ -35,7 +35,6 @@ Scenario Outline: Validation of valid python code in TryEditor page
 		|PythonCode	|	0			|
 		
 	#Array05
-
 Scenario Outline: Validation of error message for invalid python code in TryEditor page 
 	Given User is on "Try Editor Page" after logged in 
 	When User enters invalid Python code from sheet "<SheetName>" and <RowNumber> 
