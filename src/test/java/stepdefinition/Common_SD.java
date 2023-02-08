@@ -4,6 +4,7 @@ package stepdefinition;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageobjectmodel.ArrayPage_POM;
 import pageobjectmodel.HomePage_POM;
 import pageobjectmodel.SignIn_POM;
 import utils.LoggerLoad;
@@ -11,6 +12,7 @@ import utils.LoggerLoad;
 public class Common_SD {
 	SignIn_POM signin = new SignIn_POM();
 	HomePage_POM home =new HomePage_POM();
+	ArrayPage_POM array=new ArrayPage_POM();
 	
 	@Given("The user is on Signin page of DS Algo portal")
 	public void the_user_is_on_signin_page_of_ds_algo_portal() {
