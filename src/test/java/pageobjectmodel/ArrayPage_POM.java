@@ -14,6 +14,7 @@ import utils.LoggerLoad;
 import utils.Utility;
 
 public class ArrayPage_POM {
+	//Array POM
 	public static WebDriver driver =BaseClass.getDriver();
 	
 	Utility util=new Utility();

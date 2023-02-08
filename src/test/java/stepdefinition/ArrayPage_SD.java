@@ -16,7 +16,7 @@ import utils.LoggerLoad;
 import utils.Utility;
 
 public class ArrayPage_SD {
-	
+	//Array Step Definitions
 	Utility util=new Utility();
 	ArrayPage_POM array=new ArrayPage_POM();
 	
