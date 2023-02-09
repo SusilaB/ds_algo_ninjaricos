@@ -47,6 +47,7 @@ public class Hooks {
 	@AfterAll
 	public static void after() {
 		LoggerLoad.info("Closing Driver");
+		
 		BaseClass.closeallDriver();
 	}
 	
