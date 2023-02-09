@@ -45,9 +45,10 @@ public class Hooks {
 	}
 
 	@AfterAll
-	public static void after() {
+	public static void after() throws InterruptedException {
 		LoggerLoad.info("Closing Driver");
-		BaseClass.closeallDriver();
+		Thread.sleep(5000);
+		//BaseClass.closeallDriver();
 	}
 	
 
