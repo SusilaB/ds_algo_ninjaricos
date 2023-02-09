@@ -50,7 +50,7 @@ public class BaseClass {
 	}
 
 	public static void closeallDriver() {
-		driver.close();
+		//driver.close();
 	}
 
 }

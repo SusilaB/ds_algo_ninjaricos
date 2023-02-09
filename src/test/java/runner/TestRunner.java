@@ -14,8 +14,8 @@ import org.testng.annotations.DataProvider;
 		plugin = {"pretty", "html:target/ds_algo_ninjaricos.html",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, //reporting purpose
 		monochrome=false,  //console output
-		tags = "", //tags from feature file
-		features = {"src/test/resources/Features"}, //location of feature files
+		//tags = "@CrossBrowserFirefox", //tags from feature file
+		features = {"src/test/resources/Features/TC05_Array.feature"}, //location of feature files
 		glue= {"stepdefinition","hooks"}) //location of step definition files
 
 

@@ -82,7 +82,17 @@ public class ConfigReader {
 			throw new RuntimeException("Excel file path not specified in the Configuration.properties file.");
 	}
 
+	//Array
 	// Array
+		public static String arrayPageURL() {
+			String arrayPageurl = properties.getProperty("Arraypage");
+			if (arrayPageurl != null)
+				return arrayPageurl;
+			else
+				throw new RuntimeException("Array Page url not specified in the Configuration.properties file.");
+		}
+	
+	// Array - Tryeditor
 	public static String tryEditorURL() {
 		String tryeditorurl = properties.getProperty("tryeditorurl");
 		if (tryeditorurl != null)
