@@ -21,8 +21,8 @@ public class Register_POM {
 	@FindBy (name="username" ) WebElement username;
 	@FindBy (name="password1" ) WebElement pass;
 	@FindBy (name="password2" ) WebElement confirmpass;
-	@FindBy (xpath="//div[@class=\"alert alert-primary\"]" ) WebElement errorMsg;
-	@FindBy (xpath="//input[@value=\"Register\"]" ) WebElement register;
+	@FindBy (xpath="//div[@class='alert alert-primary']" ) WebElement errorMsg;
+	@FindBy (xpath="//input[@value='Register']" ) WebElement register;
 	
 	public Register_POM() {
 		PageFactory.initElements(driver, this);

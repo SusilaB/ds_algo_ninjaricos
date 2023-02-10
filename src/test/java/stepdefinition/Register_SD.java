@@ -93,7 +93,7 @@ public void user_click_register_and_verify_the(String message) {
 	@When("user enter the sheetname {string} and row number {int}")
 	public void user_enter_the_sheetname_and_row_number(String Sheetname, Integer rownum) throws  IOException, InvalidFormatException {
 		
-		/*ExcelReader reader = new ExcelReader();
+		ExcelReader reader = new ExcelReader();
 
 		List<Map<String, String>> testdata = reader.getData(Excelpath, Sheetname);
 	
@@ -106,7 +106,7 @@ public void user_click_register_and_verify_the(String message) {
 		if (username != null || password != null || confirmpwd != null)
 			RP.setUserName(username);
 		   RP.setPassword(password);
-		   RP.setConfirmPass(confirmpwd);*/
+		   RP.setConfirmPass(confirmpwd);
 		
 	    
 	}

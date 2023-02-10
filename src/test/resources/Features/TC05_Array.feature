@@ -44,7 +44,6 @@ Scenario Outline: Validation of error message for invalid python code in TryEdit
 		|SheetName	|	RowNumber	|
 		|PythonCode	|	1			|
 		
-@CrossBrowserChrome	
 	#Array06
 Scenario: Validation of Arrays Using List link 
 	Given User is on "Array page" after logged in 
@@ -79,7 +78,6 @@ Scenario Outline: Validation of invalid python code in TryEditor page for Arrays
 		|SheetName	|	RowNumber	|
 		|PythonCode	|	3			|
 		
-@CrossBrowserFirefox	
 	#Array10
 Scenario: Validation of Basic Operations in Lists link 
 	Given User is on "Array page" after logged in 

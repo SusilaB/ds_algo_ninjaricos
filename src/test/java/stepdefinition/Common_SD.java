@@ -1,11 +1,14 @@
 package stepdefinition;
 
 
+import static org.testng.Assert.assertEquals;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageobjectmodel.ArrayPage_POM;
 import pageobjectmodel.HomePage_POM;
+import pageobjectmodel.Queue_POM;
 import pageobjectmodel.SignIn_POM;
 import utils.LoggerLoad;
 
@@ -13,6 +16,7 @@ public class Common_SD {
 	SignIn_POM signin = new SignIn_POM();
 	HomePage_POM home =new HomePage_POM();
 	ArrayPage_POM array=new ArrayPage_POM();
+	Queue_POM qpage=new Queue_POM();
 	
 	@Given("The user is on Signin page of DS Algo portal")
 	public void the_user_is_on_signin_page_of_ds_algo_portal() {
@@ -49,5 +53,13 @@ public class Common_SD {
 		LoggerLoad.info("Title of current page is " + Title);
 	    
 	}
+	@Then("User redirected to {string} page")
+	public void user_redirected_to_page(String string) {
+		LoggerLoad.info("The User redirected to " + string + "Page");
+		String title = qpage.getPageTitle();
+		LoggerLoad.info("Title of the Current Page is " + title);
+		assertEquals(title, string);
+	}
+
 
 }

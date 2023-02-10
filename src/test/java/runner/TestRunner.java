@@ -15,7 +15,7 @@ import org.testng.annotations.DataProvider;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, //reporting purpose
 		monochrome=false,  //console output
 		//tags = "@CrossBrowserFirefox", //tags from feature file
-		features = {"src/test/resources/Features/TC05_Array.feature"}, //location of feature files
+		features = {"src/test/resources/Features"}, //location of feature files
 		glue= {"stepdefinition","hooks"}) //location of step definition files
 
 
