@@ -1,14 +1,13 @@
-# ds_algo_ninjaricos
-ReadMe
-Project Title:
+# ds_algo_ninjarico
+# Project Title:
 
 DS-Algo (Data Structures and Algorithms) 
 
-#**Project Description:**
+# **Project Description:**
 
 The url for DS-Algo project is : https://dsportalapp.herokuapp.com/. DS-Algo project is about various data structures like  Arrays, Linked Lists, Stack, Queue, Tree and Graph. It is an excellent platform for learning data structures in Python. By the end, the user is evaluated by the practice questions. 
 
-#**Tools and Technologies used:**
+# **Tools and Technologies used:**
 
 DS-Algo project is tested with
 
@@ -20,7 +19,7 @@ Log4j2
 Extent Report  
 Allure Report  
 
-#**Project Structure:**
+# **Project Structure:**
 
 ```mermaid
 flowchart TD
@@ -39,15 +38,15 @@ flowchart TD
     resources-->Extent
 ```
 
-#**To run the project through Eclipse:**
+# **To run the project through Eclipse:**
 
 Select the file src/test/java/runner/TestRunner.java
 
 Right Click –> Run as –> TestNG Test
 
-#**To view the Reports:**
+# **To view the Reports:**
 
-##*Allure Report*
+## *Allure Report*
 
 Allure Report will be generated into the temp folder. To see the report
 Go to command prompt
@@ -56,7 +55,7 @@ Go to command prompt
 
 	$ allure serve allure-results
 
-##*Extent Report*  
+## *Extent Report*  
 Extent Report can be viewed under ”ExtentReports” folder. User is able to  View both Spark Report and PDF Report.
 
 
