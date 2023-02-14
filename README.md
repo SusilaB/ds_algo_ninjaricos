@@ -1,4 +1,11 @@
-# ds_algo_ninjarico
+
+### Table of Contents
+**[Project Description](#project-description)**<br>
+**[Tools and Technologies used](#tools-and-technologies-used)**<br>
+**[Project Structure](#project-structure)**<br>
+**[To run the project through Eclipse](#to-run-the-project-through-eclipse)**<br>
+**[To view the Reports](#to-view-the-reports)**<br>
+
 # Project Title:
 
 DS-Algo (Data Structures and Algorithms) 
